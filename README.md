@@ -12,6 +12,17 @@ A simple script that creates a skeleton from a given dancer pose and attempts to
 - ❌ Pictogram creation not yet functional
 - 🔧 Troubleshooting Blender rig bone name issues
 
+## How to Run
+Only tested on MacOS. Requires Blender 2.93 or higher.
+
+Run the following commands to clone the project and run the script:
+```
+git clone https://github.com/yunylz/picto-ai.git
+cd picto-ai
+chmod +x process_dancer.sh
+./process_dancer.sh test_pose.jpg
+```
+
 ## Issues
 I'm actively investigating the problem with Blender rig bone names and how they interfere with the script.
 
