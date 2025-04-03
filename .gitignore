@@ -1,2 +1,5 @@
 # contains old code with ai training
 _old/
+.DS_Store
+
+model/jd2
