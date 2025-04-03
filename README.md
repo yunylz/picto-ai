@@ -1,6 +1,7 @@
 # Picto-AI
 
 A simple script that creates a skeleton from a given dancer pose and attempts to turn it into a pictogram using a Blender model.
+It uses MediaPipe to extract the dancer pose and then applies the pose data to a Blender rig to generate a skeleton.
 
 **Pictogram model by VMMO22**
 
