@@ -1,0 +1,186 @@
+{
+    "path": "/rig/Pose/root",
+    "children": [
+        {
+            "path": "/rig/Pose/root/pelvis",
+            "children": [
+                {
+                    "path": "/rig/Pose/root/pelvis/spine1",
+                    "children": [
+                        {
+                            "path": "/rig/Pose/root/pelvis/spine1/spine2",
+                            "children": [
+                                {
+                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3",
+                                    "children": [
+                                        {
+                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4",
+                                            "children": [
+                                                {
+                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R",
+                                                    "children": [
+                                                        {
+                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R/upperarm.R",
+                                                            "children": [
+                                                                {
+                                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R/upperarm.R/arm.R",
+                                                                    "children": [
+                                                                        {
+                                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R/upperarm.R/arm.R/hand.R",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/head",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L",
+                                                    "children": [
+                                                        {
+                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L/upperarm.L",
+                                                            "children": [
+                                                                {
+                                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L/upperarm.L/arm.L",
+                                                                    "children": [
+                                                                        {
+                                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L/upperarm.L/arm.L/hand.L",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R",
+                                                    "children": [
+                                                        {
+                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R/upperarm-fk.R",
+                                                            "children": [
+                                                                {
+                                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R/upperarm-fk.R/arm-fk.R",
+                                                                    "children": [
+                                                                        {
+                                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R/upperarm-fk.R/arm-fk.R/hand-fk.R",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L",
+                                                    "children": [
+                                                        {
+                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L/upperarm-fk.L",
+                                                            "children": [
+                                                                {
+                                                                    "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L/upperarm-fk.L/arm-fk.L",
+                                                                    "children": [
+                                                                        {
+                                                                            "path": "/rig/Pose/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L/upperarm-fk.L/arm-fk.L/hand-fk.L",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "path": "/rig/Pose/root/pelvis/upperbody",
+                    "children": []
+                },
+                {
+                    "path": "/rig/Pose/root/pelvis/thigh.R",
+                    "children": [
+                        {
+                            "path": "/rig/Pose/root/pelvis/thigh.R/leg.R",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "path": "/rig/Pose/root/pelvis/thigh.L",
+                    "children": [
+                        {
+                            "path": "/rig/Pose/root/pelvis/thigh.L/leg.L",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "path": "/rig/Pose/root/pelvis/thigh_ik.R",
+                    "children": [
+                        {
+                            "path": "/rig/Pose/root/pelvis/thigh_ik.R/leg_ik.R",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "path": "/rig/Pose/root/pelvis/thigh_ik.L",
+                    "children": [
+                        {
+                            "path": "/rig/Pose/root/pelvis/thigh_ik.L/leg_ik.L",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "path": "/rig/Pose/root/pelvis/thigh-fk.R",
+                    "children": [
+                        {
+                            "path": "/rig/Pose/root/pelvis/thigh-fk.R/leg-fk.R",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "path": "/rig/Pose/root/pelvis/thigh-fk.L",
+                    "children": [
+                        {
+                            "path": "/rig/Pose/root/pelvis/thigh-fk.L/leg-fk.L",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/rig/Pose/root/foot.L",
+            "children": [
+                {
+                    "path": "/rig/Pose/root/foot.L/knee_pole.L",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "path": "/rig/Pose/root/foot.R",
+            "children": [
+                {
+                    "path": "/rig/Pose/root/foot.R/knee_pole.R",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

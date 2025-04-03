@@ -1,0 +1,1638 @@
+{
+    "name": "rig",
+    "custom_properties": {},
+    "bones": {
+        "root": {
+            "name": "root",
+            "parent": null,
+            "head": [
+                -0.023545267060399055,
+                0.2336001843214035,
+                0.12369585037231445
+            ],
+            "tail": [
+                -0.02354515716433525,
+                0.007704734802246094,
+                0.12448406219482422
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root"
+        },
+        "pelvis": {
+            "name": "pelvis",
+            "parent": "root",
+            "head": [
+                1.862645149230957e-09,
+                0.21585088968276978,
+                2.1831703186035156
+            ],
+            "tail": [
+                2.9477726926074865e-09,
+                0.21585087478160858,
+                2.386742353439331
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis"
+        },
+        "spine1": {
+            "name": "spine1",
+            "parent": "pelvis",
+            "head": [
+                2.9477367213814887e-09,
+                0.21871668100357056,
+                2.41487979888916
+            ],
+            "tail": [
+                2.9508255838806008e-09,
+                0.1883862018585205,
+                2.75880765914917
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                0.9999998211860657,
+                0.9999998807907104
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.1269841194152832
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 0.04232805594801903
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1"
+        },
+        "spine2": {
+            "name": "spine2",
+            "parent": "spine1",
+            "head": [
+                2.950555133551802e-09,
+                0.19123201072216034,
+                2.7643299102783203
+            ],
+            "tail": [
+                2.9492768227612487e-09,
+                0.18562458455562592,
+                3.0762500762939453
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0000007152557373,
+                0.9999997019767761
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.25925925374031067
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 0.12169313430786133
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2"
+        },
+        "spine3": {
+            "name": "spine3",
+            "parent": "spine2",
+            "head": [
+                2.948718602624467e-09,
+                0.1909361630678177,
+                3.0752503871917725
+            ],
+            "tail": [
+                2.946379140666977e-09,
+                0.1880936622619629,
+                3.4028849601745605
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.9999997615814209,
+                1.0000007152557373,
+                0.9999998211860657
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.26455026865005493
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 0.1428571343421936
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3"
+        },
+        "spine4": {
+            "name": "spine4",
+            "parent": "spine3",
+            "head": [
+                2.9468993911763164e-09,
+                0.18338105082511902,
+                3.40208101272583
+            ],
+            "tail": [
+                2.9409490398535354e-09,
+                0.22469434142112732,
+                3.9221489429473877
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0000003576278687,
+                1.0000009536743164,
+                1.0000008344650269
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.43915340304374695
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 0.1904761791229248
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4"
+        },
+        "shoulder.R": {
+            "name": "shoulder.R",
+            "parent": "spine4",
+            "head": [
+                -0.09689197689294815,
+                0.2112812101840973,
+                3.8039824962615967
+            ],
+            "tail": [
+                -0.372740775346756,
+                0.21128125488758087,
+                3.83266544342041
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                0.9999999403953552,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R"
+        },
+        "upperarm.R": {
+            "name": "upperarm.R",
+            "parent": "shoulder.R",
+            "head": [
+                -0.5102109909057617,
+                0.21128128468990326,
+                3.8206920623779297
+            ],
+            "tail": [
+                -1.2972207069396973,
+                0.21128126978874207,
+                3.820692300796509
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R/upperarm.R"
+        },
+        "arm.R": {
+            "name": "arm.R",
+            "parent": "upperarm.R",
+            "head": [
+                -1.2972207069396973,
+                0.21128126978874207,
+                3.820692300796509
+            ],
+            "tail": [
+                -1.924918532371521,
+                0.21128125488758087,
+                3.8173863887786865
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R/upperarm.R/arm.R"
+        },
+        "hand.R": {
+            "name": "hand.R",
+            "parent": "arm.R",
+            "head": [
+                -1.924918532371521,
+                0.21128125488758087,
+                3.8173863887786865
+            ],
+            "tail": [
+                -2.690976142883301,
+                0.20906828343868256,
+                3.8173863887786865
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.R/upperarm.R/arm.R/hand.R"
+        },
+        "head": {
+            "name": "head",
+            "parent": "spine4",
+            "head": [
+                2.9417037694656756e-09,
+                0.21585002541542053,
+                4.215263843536377
+            ],
+            "tail": [
+                2.940822474428728e-09,
+                0.21584956347942352,
+                4.99041748046875
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/head"
+        },
+        "shoulder.L": {
+            "name": "shoulder.L",
+            "parent": "spine4",
+            "head": [
+                0.09689202159643173,
+                0.2112812101840973,
+                3.803982734680176
+            ],
+            "tail": [
+                0.37274080514907837,
+                0.21128125488758087,
+                3.8326656818389893
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L"
+        },
+        "upperarm.L": {
+            "name": "upperarm.L",
+            "parent": "shoulder.L",
+            "head": [
+                0.5102109909057617,
+                0.21128126978874207,
+                3.820692300796509
+            ],
+            "tail": [
+                1.2972207069396973,
+                0.21128126978874207,
+                3.820692539215088
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L/upperarm.L"
+        },
+        "arm.L": {
+            "name": "arm.L",
+            "parent": "upperarm.L",
+            "head": [
+                1.2972207069396973,
+                0.21128126978874207,
+                3.820692539215088
+            ],
+            "tail": [
+                1.9249184131622314,
+                0.21128125488758087,
+                3.8173866271972656
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L/upperarm.L/arm.L"
+        },
+        "hand.L": {
+            "name": "hand.L",
+            "parent": "arm.L",
+            "head": [
+                1.9249184131622314,
+                0.21128125488758087,
+                3.8173866271972656
+            ],
+            "tail": [
+                2.690976142883301,
+                0.20906828343868256,
+                3.8173863887786865
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder.L/upperarm.L/arm.L/hand.L"
+        },
+        "shoulder-fk.R": {
+            "name": "shoulder-fk.R",
+            "parent": "spine4",
+            "head": [
+                -0.09689200669527054,
+                0.21128126978874207,
+                3.8039824962615967
+            ],
+            "tail": [
+                -0.372740775346756,
+                0.21128125488758087,
+                3.83266544342041
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R"
+        },
+        "upperarm-fk.R": {
+            "name": "upperarm-fk.R",
+            "parent": "shoulder-fk.R",
+            "head": [
+                -0.5102109313011169,
+                0.21128126978874207,
+                3.820692300796509
+            ],
+            "tail": [
+                -1.2972207069396973,
+                0.21128126978874207,
+                3.820692300796509
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R/upperarm-fk.R"
+        },
+        "arm-fk.R": {
+            "name": "arm-fk.R",
+            "parent": "upperarm-fk.R",
+            "head": [
+                -1.2972207069396973,
+                0.21128126978874207,
+                3.820692300796509
+            ],
+            "tail": [
+                -1.9249184131622314,
+                0.21128126978874207,
+                3.8173863887786865
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R/upperarm-fk.R/arm-fk.R"
+        },
+        "hand-fk.R": {
+            "name": "hand-fk.R",
+            "parent": "arm-fk.R",
+            "head": [
+                -1.9249184131622314,
+                0.21128126978874207,
+                3.8173863887786865
+            ],
+            "tail": [
+                -2.6909801959991455,
+                0.20906826853752136,
+                3.8173863887786865
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.R/upperarm-fk.R/arm-fk.R/hand-fk.R"
+        },
+        "shoulder-fk.L": {
+            "name": "shoulder-fk.L",
+            "parent": "spine4",
+            "head": [
+                0.09689202159643173,
+                0.21128126978874207,
+                3.803982734680176
+            ],
+            "tail": [
+                0.37274080514907837,
+                0.21128125488758087,
+                3.8326656818389893
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L"
+        },
+        "upperarm-fk.L": {
+            "name": "upperarm-fk.L",
+            "parent": "shoulder-fk.L",
+            "head": [
+                0.5102109909057617,
+                0.21128126978874207,
+                3.820692539215088
+            ],
+            "tail": [
+                1.2972207069396973,
+                0.21128126978874207,
+                3.820692539215088
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L/upperarm-fk.L"
+        },
+        "arm-fk.L": {
+            "name": "arm-fk.L",
+            "parent": "upperarm-fk.L",
+            "head": [
+                1.2972207069396973,
+                0.21128126978874207,
+                3.820692539215088
+            ],
+            "tail": [
+                1.9249186515808105,
+                0.21128126978874207,
+                3.8173866271972656
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L/upperarm-fk.L/arm-fk.L"
+        },
+        "hand-fk.L": {
+            "name": "hand-fk.L",
+            "parent": "arm-fk.L",
+            "head": [
+                1.9249186515808105,
+                0.21128126978874207,
+                3.8173866271972656
+            ],
+            "tail": [
+                2.6909804344177246,
+                0.20906826853752136,
+                3.8173866271972656
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/spine1/spine2/spine3/spine4/shoulder-fk.L/upperarm-fk.L/arm-fk.L/hand-fk.L"
+        },
+        "upperbody": {
+            "name": "upperbody",
+            "parent": "pelvis",
+            "head": [
+                2.9477733587413013e-09,
+                0.21585088968276978,
+                3.0737431049346924
+            ],
+            "tail": [
+                2.9477733587413013e-09,
+                0.21585088968276978,
+                3.284010171890259
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/upperbody"
+        },
+        "thigh.R": {
+            "name": "thigh.R",
+            "parent": "pelvis",
+            "head": [
+                -0.28498998284339905,
+                0.21587137877941132,
+                2.3439598083496094
+            ],
+            "tail": [
+                -0.3292125463485718,
+                0.21335770189762115,
+                1.325961709022522
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                -2.9802322387695312e-08,
+                4.76837158203125e-07,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.9999999403953552,
+                1.0000001192092896,
+                1.0000001192092896
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh.R"
+        },
+        "leg.R": {
+            "name": "leg.R",
+            "parent": "thigh.R",
+            "head": [
+                -0.3292125463485718,
+                0.21335770189762115,
+                1.325961709022522
+            ],
+            "tail": [
+                -0.3639030158519745,
+                0.2358613908290863,
+                0.13221681118011475
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh.R/leg.R"
+        },
+        "thigh.L": {
+            "name": "thigh.L",
+            "parent": "pelvis",
+            "head": [
+                0.28499001264572144,
+                0.21587136387825012,
+                2.3439598083496094
+            ],
+            "tail": [
+                0.32921117544174194,
+                0.21336662769317627,
+                1.3259615898132324
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh.L"
+        },
+        "leg.L": {
+            "name": "leg.L",
+            "parent": "thigh.L",
+            "head": [
+                0.32921117544174194,
+                0.21336662769317627,
+                1.3259615898132324
+            ],
+            "tail": [
+                0.3639030158519745,
+                0.235860675573349,
+                0.1322164535522461
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 0.0
+                },
+                {
+                    "name": "Damped Track",
+                    "type": "DAMPED_TRACK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh.L/leg.L"
+        },
+        "thigh_ik.R": {
+            "name": "thigh_ik.R",
+            "parent": "pelvis",
+            "head": [
+                -0.28498950600624084,
+                0.21587137877941132,
+                2.3439598083496094
+            ],
+            "tail": [
+                -0.29398226737976074,
+                0.21334445476531982,
+                1.2761167287826538
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh_ik.R"
+        },
+        "leg_ik.R": {
+            "name": "leg_ik.R",
+            "parent": "thigh_ik.R",
+            "head": [
+                -0.29398223757743835,
+                0.21334445476531982,
+                1.2761168479919434
+            ],
+            "tail": [
+                -0.29882195591926575,
+                0.23596781492233276,
+                0.13222312927246094
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "IK",
+                    "type": "IK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh_ik.R/leg_ik.R"
+        },
+        "thigh_ik.L": {
+            "name": "thigh_ik.L",
+            "parent": "pelvis",
+            "head": [
+                0.28498950600624084,
+                0.21587134897708893,
+                2.3439598083496094
+            ],
+            "tail": [
+                0.2939804792404175,
+                0.2133537232875824,
+                1.2761168479919434
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh_ik.L"
+        },
+        "leg_ik.L": {
+            "name": "leg_ik.L",
+            "parent": "thigh_ik.L",
+            "head": [
+                0.2939804792404175,
+                0.2133537381887436,
+                1.2761167287826538
+            ],
+            "tail": [
+                0.29882195591926575,
+                0.23596781492233276,
+                0.1322230100631714
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "IK",
+                    "type": "IK",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh_ik.L/leg_ik.L"
+        },
+        "thigh-fk.R": {
+            "name": "thigh-fk.R",
+            "parent": "pelvis",
+            "head": [
+                -0.28499001264572144,
+                0.2158709019422531,
+                2.343963623046875
+            ],
+            "tail": [
+                -0.3295239210128784,
+                0.21333999931812286,
+                1.318793535232544
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh-fk.R"
+        },
+        "leg-fk.R": {
+            "name": "leg-fk.R",
+            "parent": "thigh-fk.R",
+            "head": [
+                -0.3295239210128784,
+                0.21333999931812286,
+                1.318793535232544
+            ],
+            "tail": [
+                -0.36390289664268494,
+                0.23586130142211914,
+                0.13222134113311768
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh-fk.R/leg-fk.R"
+        },
+        "thigh-fk.L": {
+            "name": "thigh-fk.L",
+            "parent": "pelvis",
+            "head": [
+                0.28499001264572144,
+                0.21587088704109192,
+                2.343963623046875
+            ],
+            "tail": [
+                0.3295225501060486,
+                0.21334898471832275,
+                1.318793535232544
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 1.0
+                },
+                {
+                    "name": "Copy Location",
+                    "type": "COPY_LOCATION",
+                    "influence": 0.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh-fk.L"
+        },
+        "leg-fk.L": {
+            "name": "leg-fk.L",
+            "parent": "thigh-fk.L",
+            "head": [
+                0.3295225501060486,
+                0.21334898471832275,
+                1.318793535232544
+            ],
+            "tail": [
+                0.36390286684036255,
+                0.23586058616638184,
+                0.13222134113311768
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [
+                {
+                    "name": "Copy Rotation",
+                    "type": "COPY_ROTATION",
+                    "influence": 1.0
+                }
+            ],
+            "full_path": "/rig/Pose/root/root/pelvis/thigh-fk.L/leg-fk.L"
+        },
+        "foot.L": {
+            "name": "foot.L",
+            "parent": "root",
+            "head": [
+                0.29882198572158813,
+                0.23596778512001038,
+                0.13222312927246094
+            ],
+            "tail": [
+                0.29882195591926575,
+                -0.09638094902038574,
+                0.13222312927246094
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/foot.L"
+        },
+        "knee_pole.L": {
+            "name": "knee_pole.L",
+            "parent": "foot.L",
+            "head": [
+                0.29882198572158813,
+                -0.6798645257949829,
+                1.3266102075576782
+            ],
+            "tail": [
+                0.29882198572158813,
+                -1.288578748703003,
+                1.3266102075576782
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/foot.L/knee_pole.L"
+        },
+        "foot.R": {
+            "name": "foot.R",
+            "parent": "root",
+            "head": [
+                -0.29882198572158813,
+                0.23596778512001038,
+                0.13222312927246094
+            ],
+            "tail": [
+                -0.2988220155239105,
+                -0.09638094902038574,
+                0.13222312927246094
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/foot.R"
+        },
+        "knee_pole.R": {
+            "name": "knee_pole.R",
+            "parent": "foot.R",
+            "head": [
+                -0.2988220155239105,
+                -0.6798645257949829,
+                1.3266102075576782
+            ],
+            "tail": [
+                -0.2988220155239105,
+                -1.288578748703003,
+                1.3266102075576782
+            ],
+            "rotation_mode": "QUATERNION",
+            "location": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "custom_properties": {},
+            "constraints": [],
+            "full_path": "/rig/Pose/root/root/foot.R/knee_pole.R"
+        }
+    }
+}
